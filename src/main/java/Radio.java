@@ -1,10 +1,17 @@
 public class Radio {
-    protected int currentStation;
-    protected int currentVolume;
+    private int currentStation;
+    private int currentVolume;
 
     public void nextVolume() {
         if (currentVolume < 10) {
             currentVolume = currentVolume + 1;
+        } else {
+            currentVolume = 10;
+        }
+    }
+    public void beforeVolume() {
+        if (currentVolume > 10) {
+            currentVolume = currentVolume - 1;
         } else {
             currentVolume = 0;
         }
