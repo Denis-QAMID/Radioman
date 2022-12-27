@@ -87,7 +87,7 @@ public class TestRadio {
     @Test
     public void testNext1Volume() {
         Radio radio = new Radio();
-        radio.setCurrentVolume(10);
+        radio.setCurrentVolume(0);
 
         radio.nextVolume();
 
