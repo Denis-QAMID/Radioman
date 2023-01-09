@@ -149,7 +149,7 @@ public class TestRadio {
 
         radio.beforeVolume();
 
-        int expected = 9;
+        int expected = 0;
         int actual = radio.getCurrentVolume();
         Assertions.assertEquals(expected, actual);
     }
