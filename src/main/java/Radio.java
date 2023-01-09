@@ -6,7 +6,7 @@ public class Radio {
         if (currentVolume < 10) {
             currentVolume = currentVolume + 1;
         } else {
-            currentVolume = 10;
+            currentVolume = 0;
         }
     }
     public void beforeVolume() {
