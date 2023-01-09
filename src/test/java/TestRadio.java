@@ -143,7 +143,7 @@ public class TestRadio {
         Assertions.assertEquals(expected, actual);
     }
         @Test
-    public void testNotVolume() {
+    public void testNot3Volume() {
         Radio radio = new Radio();
         radio.setCurrentVolume(12);
 
